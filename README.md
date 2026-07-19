@@ -243,8 +243,14 @@ java -cp bin client.ChatClient localhost 5000
 
 ## 8. Screenshots
 
-See [`docs/PROJECT_GUIDE.md`](docs/PROJECT_GUIDE.md) → Screenshots Checklist for the exact list to capture and place in `/screenshots` before publishing to GitHub.
+### Compile
+![Compile](screenshots/Compile.png)
 
+### Run the Server
+![Run the Server](screenshots/Run_the_server.png)
+
+### Run the Client
+![Run the Client](screenshots/Run_a_client.png)
 ---
 
 ## 9. Limitations & Future Improvements
