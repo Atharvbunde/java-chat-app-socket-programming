@@ -243,9 +243,6 @@ java -cp bin client.ChatClient localhost 5000
 
 ## 8. Screenshots
 
-### Compile
-![Compile](screenshots/Compile.png)
-
 ### Run the Server
 ![Run the Server](screenshots/Run_the_server.png)
 
