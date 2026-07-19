@@ -1,0 +1,19 @@
+services:
+  chat-server:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: java-chat-app-server:latest
+    container_name: java-chat-server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+    restart: unless-stopped
+
+# Usage:
+#   docker compose up --build
+#
+# Then connect clients from the HOST machine (the console/GUI client is
+# interactive and isn't containerized) with:
+#   java -cp bin client.ChatClient localhost 5000

@@ -1,0 +1,28 @@
+# Compiled class files
+bin/
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+out/
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build tool output (if pom.xml / build.gradle added later)
+build/
+
+# Local test artifacts (keep the folder, ignore generated content)
+logs/*.log
+!logs/.gitkeep
+
+# Test build output
+testbin/
+test/tmp/
